@@ -19,7 +19,7 @@ const Header = () => {
                         </span>
                     </Link>
 
-                    <nav className="hidden lg:flex items-center gap-2">
+                    <nav className="hidden md:flex items-center gap-2">
                         {portfolioData.menuItems.map((item) => (
                             <Link
                                 key={item.path}
@@ -40,7 +40,7 @@ const Header = () => {
                     </nav>
 
                     <button
-                        className="lg:hidden text-white bg-gradient-to-r from-blue-600 to-green-600 p-2 rounded-lg"
+                        className="md:hidden text-white bg-gradient-to-r from-blue-600 to-green-600 p-2 rounded-lg"
                         onClick={toggleMenu}
                     >
                         {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -49,7 +49,7 @@ const Header = () => {
             </div>
 
             {isOpen && (
-                <div className="lg:hidden absolute top-full left-0 right-0 bg-white/98 backdrop-blur-lg border-b border-gray-200 shadow-xl py-4 px-4">
+                <div className="md:hidden absolute top-full left-0 right-0 bg-white/98 backdrop-blur-lg border-b border-gray-200 shadow-xl py-4 px-4">
                     <div className="flex flex-col gap-2">
                         {portfolioData.menuItems.map((item) => (
                             <Link

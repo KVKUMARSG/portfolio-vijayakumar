@@ -43,7 +43,7 @@ const Footer = () => {
               Let's Connect
             </span>
           </h3>
-          <div className="flex justify-center items-center gap-8 md:gap-12 lg:gap-16 flex-wrap max-w-3xl mx-auto">
+          <div className="flex justify-center items-center gap-16 md:gap-24 lg:gap-32 flex-wrap max-w-5xl mx-auto">
             {socialLinks.map((social, index) => (
               <a
                 key={index}
