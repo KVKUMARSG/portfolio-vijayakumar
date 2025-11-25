@@ -116,7 +116,7 @@ const Home = () => {
                                 transition={{ duration: 0.5, delay: index * 0.1 }}
                                 className="card h-full overflow-hidden hover:shadow-xl hover:shadow-blue-500/10"
                             >
-                                <div className="h-56 overflow-hidden rounded-lg mb-6 relative">
+                                <div className="h-28 overflow-hidden rounded-lg mb-6 relative">
                                     <img
                                         src={project.image}
                                         alt={project.title}
