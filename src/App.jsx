@@ -13,7 +13,7 @@ import { portfolioData } from './data/portfolioData';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/portfolio-vijayakumar">
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
