@@ -1,14 +1,12 @@
 export const portfolioData = {
     personalInfo: {
         name: "VIJAYAKUMAR K",
-        title: "Product Manager | Agile Coach | Digital Transformation Leader",
+        title: "Senior Product Manager (Director) | Open Banking | API | Digital Transformation Leader",
         email: "kvkumarsg@gmail.com",
-        phone: "+91 91763 60717",
+        phone: "+91 8220701890",
         linkedin: "https://www.linkedin.com/in/vijaykm/",
-        notion: "https://vijayakumark.notion.site/VIJAYAKUMAR-K-Portfolio-764911b22f8540fbb8920f1df6e0cfe9",
-        summary: "Product leader with 15+ years of experience in product management, agile coaching, and digital transformation. Certified SAFe LPM, SAFe POPM, PSPO, PSM, and multiple ICAgile certifications (ICP-APO, ICP-ATF, ICP-ACC, ICP-ENT, ICP-CAT). Expert in fintech, healthcare, and enterprise solutions with proven success in building high-performing teams and delivering customer-centric products.",
-        location: "India",
-        bio: "Passionate about building products that solve real user problems while driving organizational agility. Experienced in leading cross-functional teams across fintech, healthcare, and enterprise domains. Strong background in stakeholder management, user research, and continuous discovery practices."
+        notion: "https://vijayakumar.notion.site/VIJAYAKUMAR-K-Portfolio-764911b22f8540fbb8920f1df6e0cfe9",
+        summary: "Dynamic, impact‑driven executive with 25+ years of global experience delivering USD 100M+ business value, scaling mission‑critical banking platforms processing 530M+ transactions annually, and driving large‑scale digital modernization across 33+ markets in Asia, Africa, Middle East & Europe. A proven force in API‑first banking, leading USD 10M–12M annual portfolios, building 150+ enterprise‑grade APIs, enabling 20+ global partners, and consistently driving 25% YoY growth in digital adoption, API consumption, and platform revenue."
     },
     menuItems: [
         { label: "Home", path: "/" },
@@ -23,170 +21,109 @@ export const portfolioData = {
         { label: "Recognition", path: "/recognition" },
         { label: "Contact", path: "/contact" }
     ],
-    certifications: [
-        { name: "Professional Scrum Product Owner (PSPO)", issuer: "Scrum.org", badge: "https://www.scrum.org/badges" },
-        { name: "SAFe® Lean Portfolio Management (LPM)", issuer: "Scaled Agile, Inc.", badge: "https://www.credly.com" },
-        { name: "SAFe® Product Owner/Product Manager (POPM)", issuer: "Scaled Agile, Inc.", badge: "https://www.credly.com" },
-        { name: "ICAgile Certified Professional - Agile Product Ownership (ICP-APO)", issuer: "ICAgile", badge: "https://www.icagile.com" },
-        { name: "Professional Scrum Master (PSM)", issuer: "Scrum.org", badge: "https://www.scrum.org/badges" },
-        { name: "ICAgile Certified Professional - Agile Team Facilitation (ICP-ATF)", issuer: "ICAgile", badge: "https://www.icagile.com" },
-        { name: "ICAgile Certified Professional - Agile Coaching (ICP-ACC)", issuer: "ICAgile", badge: "https://www.icagile.com" },
-        { name: "ICAgile Certified Professional - Enterprise Coaching (ICP-ENT)", issuer: "ICAgile", badge: "https://www.icagile.com" },
-        { name: "ICAgile Certified Professional - Coaching Agile Transitions (ICP-CAT)", issuer: "ICAgile", badge: "https://www.icagile.com" },
-        { name: "Certified DevOps Leader", issuer: "DevOps Institute", badge: "https://www.devopsinstitute.com" },
-        { name: "AWS Certified Cloud Practitioner", issuer: "Amazon Web Services", badge: "https://www.credly.com" },
-        { name: "Microsoft Certified: Azure Fundamentals (AZ-900)", issuer: "Microsoft", badge: "https://www.credly.com" },
-        { name: "Microsoft Certified: Azure AI Fundamentals (AI-900)", issuer: "Microsoft", badge: "https://www.credly.com" },
-        { name: "Microsoft Certified: Azure Data Fundamentals (DP-900)", issuer: "Microsoft", badge: "https://www.credly.com" },
-        { name: "Oracle Cloud Infrastructure Foundations 2021", issuer: "Oracle", badge: "https://www.credly.com" },
-        { name: "Alibaba Cloud Associate", issuer: "Alibaba Cloud", badge: "https://edu.alibabacloud.com" },
-        { name: "PMI Agile Certified Practitioner (PMI-ACP)®", issuer: "Project Management Institute", badge: "https://www.credly.com" },
-        { name: "Project Management Professional (PMP)®", issuer: "Project Management Institute", badge: "https://www.credly.com" },
-        { name: "Open Banking & Platforms in Practice", issuer: "Skillsoft", badge: "https://skillsoft.com" },
-        { name: "Digital Transformation in Financial Services", issuer: "Skillsoft", badge: "https://skillsoft.com" },
-        { name: "AI In Fintech - Complete", issuer: "Skillsoft", badge: "https://skillsoft.com" },
-        { name: "Fintech - Foundations & Overview", issuer: "Skillsoft", badge: "https://skillsoft.com" }
+    hero: {
+        heading: "Building Products That Matter",
+        subtitle: "Product leader with 15+ years of experience in product management, agile coaching, and digital transformation.",
+        ctaPrimary: "View My Work",
+        ctaSecondary: "Get In Touch",
+        image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1"
+    },
+    stats: [
+        { label: "Years of Experience", value: "15+" },
+        { label: "Certifications", value: "22+" },
+        { label: "Teams Coached", value: "50+" }
     ],
-    pmShowcase: [
+    caseStudies: [
         {
-            id: 1,
             title: "UniAcco - Product Teardown",
-            description: "Comprehensive product analysis of UniAcco's student accommodation platform, focusing on user journey optimization and conversion funnel improvements.",
-            image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1000",
-            outcome: "Identified 5 key UX improvements that could potentially increase booking conversion by 18-22%.",
-            link: "https://vijayakumark.notion.site",
-            tags: ["Product Teardown", "UX Analysis", "EdTech"]
+            description: "Comprehensive analysis of student accommodation platform",
+            outcome: "Identified 5 key UX improvements for 18‑22% conversion increase",
+            tags: ["Product Teardown", "UX Analysis", "EdTech"],
+            image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1"
         },
         {
-            id: 2,
-            title: "DUNZO - Average Order Value Optimization",
-            description: "Strategic analysis of Dunzo's quick commerce model with focus on increasing average order value through personalized recommendations and bundling strategies.",
-            image: "https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&q=80&w=1000",
-            outcome: "Proposed data-driven bundling strategies that could lift AOV by 15-20% while maintaining user satisfaction.",
-            link: "https://vijayakumark.notion.site",
-            tags: ["Quick Commerce", "Growth Strategy", "Data Analytics"]
+            title: "Zepto - Quick Commerce Giant",
+            description: "Strategic analysis of 10‑minute delivery model",
+            outcome: "Analyzed growth strategy and unit economics",
+            tags: ["Quick Commerce", "Strategy", "Delivery"],
+            image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d"
         },
         {
-            id: 3,
-            title: "Jupiter - Product Gamification",
-            description: "Analysis of Jupiter's gamification strategy in neobanking, examining how game mechanics drive user engagement and financial literacy.",
-            image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=1000",
-            outcome: "Evaluated gamification effectiveness and proposed enhancements to reward mechanisms for better long-term retention.",
-            link: "https://vijayakumark.notion.site",
-            tags: ["Fintech", "Gamification", "User Engagement"]
+            title: "Jupiter - Fintech Product Review",
+            description: "Deep dive into digital banking experience",
+            outcome: "Evaluated feature set and user engagement tactics",
+            tags: ["Fintech", "Digital Banking", "Product Analysis"],
+            image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3"
         },
         {
-            id: 4,
-            title: "Mudrex - Product Teardown",
-            description: "Deep dive into Mudrex's crypto investment platform, analyzing onboarding flows, trust-building elements, and investment decision support features.",
-            image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&q=80&w=1000",
-            outcome: "Presented comprehensive teardown with 12+ actionable recommendations for improving user trust and platform adoption.",
-            link: "https://vijayakumark.notion.site",
-            tags: ["Crypto", "Investment Platform", "Trust & Safety"]
+            title: "WazirX - Crypto Exchange Analysis",
+            description: "Cryptocurrency trading platform assessment",
+            outcome: "Reviewed security, UX, and trading features",
+            tags: ["Crypto", "Trading Platform", "Security"],
+            image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040"
         }
+    ],
+    expertise: [
+        "Product Strategy",
+        "Agile Coaching",
+        "User Research",
+        "Stakeholder Management",
+        "Product Discovery",
+        "Fintech",
+        "Digital Transformation",
+        "Team Leadership"
+    ],
+    certifications: [
+        { name: "SAFe LPM", issuer: "Scaled Agile" },
+        { name: "SAFe POPM", issuer: "Scaled Agile" },
+        { name: "Professional Scrum Product Owner (PSPO)", issuer: "Scrum.org" },
+        { name: "Professional Scrum Master (PSM)", issuer: "Scrum.org" },
+        { name: "ICP‑APO", issuer: "ICAgile" },
+        { name: "ICP‑ATF", issuer: "ICAgile" },
+        { name: "ICP‑ACC", issuer: "ICAgile" },
+        { name: "ICP‑ENT", issuer: "ICAgile" },
+        { name: "ICP‑CAT", issuer: "ICAgile" }
     ],
     sideProjects: [
         {
-            title: "Product Management Notes",
-            description: "Curated collection of product management frameworks, templates, and best practices gathered from 15+ years of experience.",
-            link: "https://vijayakumark.notion.site",
-            icon: "📝"
-        },
-        {
-            title: "Agile Coaching Toolkit",
-            description: "Comprehensive toolkit for agile coaches including facilitation guides, workshop templates, and team health assessment frameworks.",
+            title: "Project Alpha",
+            description: "AI‑driven analytics platform",
             link: "#",
-            icon: "🎯"
+            emoji: "🚀"
         },
         {
-            title: "User Research Case Studies",
-            description: "Real-world user research projects showcasing different methodologies, from contextual inquiry to usability testing.",
-            link: "https://vijayakumark.notion.site",
-            icon: "🔍"
+            title: "Beta Builder",
+            description: "Low‑code workflow automation",
+            link: "#",
+            emoji: "🛠️"
+        },
+        {
+            title: "Gamma Grid",
+            description: "Real‑time data visualization library",
+            link: "#",
+            emoji: "📊"
         }
     ],
     speaking: [
         {
-            title: "The Future of Fintech in India",
-            event: "Fintech Summit 2024",
-            date: "March 2024",
-            description: "Keynote on emerging trends in Indian fintech ecosystem, focusing on UPI evolution, embedded finance, and AI-driven personalization.",
-            topics: ["Fintech", "AI/ML", "Product Innovation"]
+            title: "Scaling Agile in FinTech",
+            event: "FinTech Summit 2024",
+            date: "June 2024",
+            topics: ["Agile", "FinTech", "Product Management"]
         },
         {
-            title: "Scaling Agile: From Teams to Portfolios",
-            event: "Agile India 2023",
-            date: "November 2023",
-            description: "Workshop on implementing SAFe Lean Portfolio Management in large enterprises with practical case studies.",
-            topics: ["SAFe", "Scaled Agile", "Portfolio Management"]
-        },
-        {
-            title: "Product Discovery in B2B SaaS",
-            event: "ProductCon 2023",
-            date: "August 2023",
-            description: "Talk on continuous discovery practices for B2B products, balancing stakeholder demands with user needs.",
-            topics: ["Product Discovery", "B2B SaaS", "User Research"]
+            title: "API‑First Banking Architecture",
+            event: "Open Banking Conference",
+            date: "Oct 2023",
+            topics: ["APIs", "Banking", "Architecture"]
         }
     ],
     resources: [
-        {
-            title: "Product Management Learning Path",
-            description: "Curated learning resources for aspiring and experienced product managers",
-            link: "#",
-            category: "Learning"
-        },
-        {
-            title: "Agile Transformation Playbook",
-            description: "Step-by-step guide for organizations embarking on agile transformation",
-            link: "#",
-            category: "Guides"
-        }
+        { title: "Design System Guide", link: "#" },
+        { title: "API Best Practices", link: "#" }
     ],
-    vibeCoding: {
-        description: "Exploring the intersection of product thinking and technical implementation. Occasional experiments with product prototypes and automation tools.",
-        projects: [
-            {
-                title: "Product Metrics Dashboard",
-                description: "Custom dashboard for tracking key product metrics using Python and Streamlit",
-                tech: ["Python", "Streamlit", "Data Visualization"]
-            },
-            {
-                title: "User Feedback Analyzer",
-                description: "NLP-based tool for analyzing and categorizing user feedback from multiple sources",
-                tech: ["Python", "NLP", "OpenAI API"]
-            }
-        ]
-    },
     recognition: [
-        {
-            title: "Product Excellence Award",
-            issuer: "TechCorp India",
-            year: "2023",
-            description: "Recognized for exceptional product leadership and delivery of high-impact features that drove 40% YoY growth."
-        },
-        {
-            title: "Agile Champion",
-            issuer: "Enterprise Solutions Inc.",
-            year: "2022",
-            description: "Awarded for successfully coaching 12+ teams through agile transformation, resulting in 35% improvement in delivery velocity."
-        },
-        {
-            title: "Innovation Award",
-            issuer: "Fintech Innovations",
-            year: "2021",
-            description: "Received for pioneering customer-centric product discovery practices that reduced time-to-market by 50%."
-        }
-    ],
-    otherPortfolios: [
-        {
-            title: "Notion Portfolio",
-            link: "https://vijayakumark.notion.site/VIJAYAKUMAR-K-Portfolio-764911b22f8540fbb8920f1df6e0cfe9",
-            description: "Detailed case studies, teardowns, and product management notes"
-        },
-        {
-            title: "LinkedIn Profile",
-            link: "https://www.linkedin.com/in/vijaykm/",
-            description: "Professional experience, recommendations, and industry insights"
-        }
+        { title: "Top 30 FinTech Leaders", issuer: "FinTech Magazine", year: 2023 },
+        { title: "Innovation Award", issuer: "Banking Innovation Forum", year: 2022 }
     ]
 };
