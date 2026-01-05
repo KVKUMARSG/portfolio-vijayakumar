@@ -39,7 +39,7 @@ export const portfolioData = {
             description: "Comprehensive analysis of student accommodation platform",
             outcome: "Identified 5 key UX improvements for 18‑22% conversion increase",
             tags: ["Product Teardown", "UX Analysis", "EdTech"],
-            image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1"
+            image: "https://media.licdn.com/dms/image/v2/C561BAQGq1mT3gluryA/company-background_10000/company-background_10000/0/1587718118121/uniacco_cover?e=2147483647&v=beta&t=JJ_WSiTjtVtXJt2EK00EgDHKxYbrjyMKXPGJ0NKjQ34"
         },
         {
             title: "Zepto - Quick Commerce Giant",
